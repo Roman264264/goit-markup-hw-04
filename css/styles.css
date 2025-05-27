@@ -218,7 +218,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-.hero-icon {
+.hero-item-icon {
     display: flex;
     fill: currentColor;
     align-items: center;
