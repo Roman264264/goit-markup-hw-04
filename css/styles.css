@@ -220,9 +220,22 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 .hero-item-icon {
     display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 8px;
+}
+.hero-icon-div {
+    display: flex;
     fill: currentColor;
     align-items: center;
     justify-content: center;
+    gap: 24px;
+}
+
+.hero-icon{
+    background-color: #4d5ae5;
+    fill: #F4F4FD;
+    border-radius: 50%;
 }
 .hero-list {
     display: flex;
