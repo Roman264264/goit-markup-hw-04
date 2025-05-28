@@ -235,6 +235,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-address:hover, .hero-address:focus {
 background-color: #404bbf;
@@ -244,7 +245,6 @@ background-color: #404bbf;
     height: 40px;
 }
 .hero-icon{
-    /* background-color: #4d5ae5; */
     fill: #F4F4FD;
 
 }
