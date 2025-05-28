@@ -124,7 +124,11 @@ color: #434455;
 .section-box {
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Main\ photo.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Main-photo.jpg);
+max-width: 1440px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 .box-title {
 font-weight: 700;
@@ -153,7 +157,7 @@ border: none;
 padding: 48gpx 0;
 margin: 0 auto;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .box-btn:hover, .box-btn:focus {
     background-color: #404BBF;
@@ -222,7 +226,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-top: 8px;
 }
 .hero-icon-div {
     display: flex;
