@@ -177,6 +177,16 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 .section-information {
     padding: 120px 0;
 }
+.icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
 .information-list {
     display: flex;
     gap: 24px;
