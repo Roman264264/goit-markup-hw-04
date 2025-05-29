@@ -379,11 +379,17 @@ max-width: 264px;
 }
 
 .footer-div {
+    display: flex;
+    align-items: baseline;
+}
+.footer-logo-div {
+    margin-right: 120px;
 }
 .footer-div-icon {
     margin-right: 120px;
     display: flex;
     align-items: baseline;
+    display: inline-block;
 }
 .footer-media {
     font-weight: 500;
